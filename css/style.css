@@ -16,10 +16,17 @@
     src: url("/fonts/veikan.woff");
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: var(--background);
     color: var(--foreground);
     background-image: url("/img/bg.png");
+    font-size: 1rem;
+    overflow: scroll;
+    -webkit-overflow-scrolling: auto;
 }
 
 a {
@@ -51,11 +58,11 @@ header {
 }
 
 h2{
-    font-size: 1.5em;
+    font-size: min(max(1.4rem, 4vw), 1.7rem);
 }
 
 h1 {
-    font-size: 3em
+    font-size: min(max(2rem, 4vw), 3rem);
 }
 
 nav {
@@ -117,23 +124,25 @@ nav a {
 
 #license {
     text-align: center;
-    font-size: 10px;
+    font-size: 0.7rem;
 }
 
 #notFound {
     text-align: center;
     font-family: "Amatic SC";
-    line-height: 10px;
+    line-height: 1.5rem;
     font-weight: bold;
+    font-size: 1rem;
 }
 
 #notFound h1 {
-    font-size: 3em;
+    font-size: 3rem;
+    line-height: 3rem;
 }
 
 #notFoundImg {
     background-image: url(/img/styx.png);
-    height: 240px;
+    height: 210px;
     border: 1px solid var(--foreground);
     max-width: 600px;
 }
