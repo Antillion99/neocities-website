@@ -39,11 +39,15 @@ header {
     text-align: center;
     line-height: 10px;
     position: relative;
-}
-
-header img {
+    min-height: 128px;
+    background-image: url(/img/banners/banner1.png);
+    max-width: 600px;
     border: 1px solid var(--foreground);
     box-shadow: 1em 1em 1em black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
 }
 
 h2{
@@ -114,4 +118,22 @@ nav a {
 #license {
     text-align: center;
     font-size: 10px;
+}
+
+#notFound {
+    text-align: center;
+    font-family: "Amatic SC";
+    line-height: 10px;
+    font-weight: bold;
+}
+
+#notFound h1 {
+    font-size: 3em;
+}
+
+#notFoundImg {
+    background-image: url(/img/styx.png);
+    height: 240px;
+    border: 1px solid var(--foreground);
+    max-width: 600px;
 }
