@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&display=swap');
+
+/* Colors */
+:root {
+--foreground: #fcfdfd;
+--foreground2: #c6c9c7;
+--darkish: #737474;
+--darker: #3b3b38;
+--background: #140e0f;
+}
+
+@font-face {
+    font-family: "Veikan";
+    src: url("/fonts/veikan.woff");
+}
+
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+    background-image: url("/img/bg.png");
+}
+
+main {
+    max-width: 38rem;
+    padding: 2rem;
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    line-height: 10px;
+    position: relative;
+}
+
+header img {
+    border: 1px solid var(--foreground);
+    box-shadow: 1em 1em 1em black;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 3em
+}
+
+nav {
+    margin-top: 20px;
+    background-color: var(--background);
+    border: 1px solid var(--foreground);
+    box-shadow: 1em 1em 1em black;
+    text-align: center;
+    padding: 5px;
+}
+
+nav a {
+    margin-left: 10px;
+    color: var(--foreground);
+    text-decoration: none;
+}
+
+.veikan {
+    font-family: 'Veikan';
+}
+
+.current {
+    font-weight: bold;
+}
+
+.center {
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.box {
+    margin-top: 20px;
+    background-color: var(--background);
+    border: 1px solid var(--foreground);
+    padding: 10px;
+    box-shadow: 1em 1em 1em black;
+}
+
+#headerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 3px black
+}
+
+#welcome {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    line-height: 0;
+}
+
+#license {
+    text-align: center;
+    font-size: 10px;
+}
+
+#license a {
+    text-decoration: none;
+    color: var(--foreground);
+    font-weight: bold;
+}
