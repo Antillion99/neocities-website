@@ -81,6 +81,11 @@ nav a {
     font-weight: normal;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 .veikan {
     font-family: 'Veikan';
 }
@@ -106,6 +111,10 @@ nav a {
     border: 1px solid var(--foreground);
     padding: 10px;
     box-shadow: 1em 1em 1em black;
+}
+
+.prayer {
+    text-align: center;
 }
 
 #headerText {
