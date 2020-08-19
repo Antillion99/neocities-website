@@ -1,0 +1,41 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+
+// Color Variables
+$background: black;
+$foreground: white;
+$detail: #730305;
+
+body {
+    background-color: black;
+    background-image: url("/img/backs/lines.png");
+}
+
+main {
+    max-width: 38rem;
+    padding: 2rem;
+    margin: auto;
+    color: $foreground;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#box {
+    background-color: $background;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid $detail;
+
+    strong {
+        color: $detail;
+    }
+
+    h1 {
+        font-family: 'Libre Barcode 128 Text', cursive;
+    }
+}
