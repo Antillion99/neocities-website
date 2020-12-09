@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+@font-face {
+  font-family: "Veikan";
+  src: url("/fonts/veikan.woff");
+}
+body {
+  background-color: #f8f1e7;
+  color: #140e0f;
+  font-size: 1rem;
+  font-family: Helvetica, Arial, "Liberation Sans", sans-serif;
+  overflow: scroll;
+  -webkit-overflow-scrolling: auto;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: underline;
+  color: #140e0f;
+}
+
+#wrapper {
+  width: 900px;
+  margin: auto;
+  background-color: #fcfdfd;
+  border-left: 1px solid #bababa;
+  border-right: 1px solid #bababa;
+  box-shadow: 0px 0px 100px 1px rgba(0, 0, 0, 0.35);
+}
+
+header {
+  display: flex;
+  align-items: end;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  border-bottom: 1px dashed #bababa;
+}
+header img {
+  width: 50px;
+}
+
+main {
+  padding: 0.5em;
+}
+
+#headText {
+  margin-left: 1em;
+}
+#headText h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #002563;
+}
+#headText h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+#headLangs {
+  font-size: 0.8rem;
+  margin-left: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.5em;
+  border-left: 1px solid #bababa;
+  border-right: 1px solid #bababa;
+  border-top: 1px dashed #bababa;
+}
+nav li {
+  padding: 0.1em 0.5em;
+  border-bottom: 1px dashed #bababa;
+}
+nav a {
+  text-decoration: none;
+  color: #140e0f;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+.colContainer {
+  display: grid;
+  grid-template-columns: [sidebar] 180px [content] 1fr;
+}
+
+#sidebar {
+  grid-column: sidebar;
+}
+
+#dataBox {
+  border: 1px solid #bababa;
+  text-align: center;
+}
+#dataBox h3 {
+  border: 1px solid #bababa;
+  margin: 1px;
+  padding-top: 0.3em;
+}
+#dataBox img {
+  display: block;
+  border: 1px solid #bababa;
+  margin: 1px;
+  width: 174px;
+}
+#dataBox .box {
+  border: 1px solid #bababa;
+  font-size: 0.8rem;
+  margin: 1px;
+}
+#dataBox ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#dataBox li {
+  padding: 0.2em 0.5em;
+}
+#dataBox li:not(:last-child) {
+  border-bottom: 1px dashed #bababa;
+}
+
+#content {
+  padding: 0 0.5em;
+  font-size: 0.9rem;
+}
+#content h4 {
+  margin: 0;
+  padding: 0 1em;
+  background-color: #002563;
+  color: #fcfdfd;
+}
+#content li {
+  padding: 0;
+  margin: 0;
+}
+
+.news {
+  margin: 1em;
+  padding-left: 0.5em;
+  border-left: 1px dashed #002563;
+}
+.news h5 {
+  font-size: 1rem;
+  margin: 0;
+  text-decoration: underline;
+}
+.news p {
+  font-size: 0.8rem;
+}
+.news .newsDate {
+  font-size: 0.7rem;
+  margin-bottom: 0.5em;
+  font-style: italic;
+}
+.news a {
+  font-size: 0.7rem;
+  margin: 0;
+}
+.news img {
+  float: right;
+  margin: 1em;
+  border: 1px dashed #002563;
+}
+
+.date {
+  display: inline;
+  font-size: 0.7rem;
+  font-style: italic;
+}
+
+#contentBody {
+  margin: 1rem;
+}
+#contentBody p {
+  margin-top: 1rem;
+}
+
+#govLinks {
+  display: flex;
+  margin: 1em 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+}
+#govLinks li {
+  margin: 1em;
+}
+#govLinks img {
+  border: 2px solid #bababa;
+}
+
+#countryMap {
+  margin: 1em 0;
+  text-align: center;
+  padding-bottom: 1em;
+  border-bottom: 1px dashed #bababa;
+}
+#countryMap img {
+  width: 350px;
+}
+#countryMap p {
+  margin: auto;
+  border: 1px solid black;
+  width: 200px;
+  background-color: #002563;
+  color: #fcfdfd;
+}
+
+#facts h5 {
+  margin: 0;
+  font-size: 0.9rem;
+}
+#facts p {
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+}
+
+.imgBox {
+  text-align: center;
+  float: right;
+  padding: 0.5em;
+  border: 3px double #bababa;
+}
+.imgBox img {
+  display: block;
+}
+.imgBox p {
+  margin-top: 0.5em;
+}
+
+.vkScript {
+  font-family: Veikan;
+}
+
+footer {
+  background-color: #002563;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+  color: #fcfdfd;
+  font-size: 0.7rem;
+}
+footer a {
+  color: #fcfdfd;
+}
+
+/*# sourceMappingURL=veikaia.css.map */

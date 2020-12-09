@@ -1,34 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap");
 body {
   background-color: black;
-  background-image: url("/img/backs/lines.png");
-}
+  background-image: url("/img/backs/lines.png"); }
 
 main {
   max-width: 38rem;
   padding: 2rem;
   margin: auto;
-  color: white;
-}
+  color: white; }
 
 .center {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  display: block;
-}
+  display: block; }
 
 #box {
   background-color: black;
   padding: 10px;
   margin-top: 10px;
-  border: 1px solid #730305;
-}
-#box strong {
-  color: #730305;
-}
-#box h1 {
-  font-family: "Libre Barcode 128 Text", cursive;
-}
+  border: 1px solid #730305; }
+  #box strong {
+    color: #730305; }
+  #box h1 {
+    font-family: 'Libre Barcode 128 Text', cursive; }
 
 /*# sourceMappingURL=void.css.map */
